@@ -243,12 +243,13 @@ header .container .col-md-7 p {
 
 .section-3 {
 	width: 100% !important;
-	height: 100vmin;
+	height: 80vmin;
 	margin-top: 15vmin;
 	background: rgb(255, 255, 255);
 	padding: 0 !important;
 }
 .form {
+	height: 100%;
 	background: rgb(12, 12, 12);
 	border: none;
 	border-top-right-radius: 100%;
@@ -311,7 +312,12 @@ form textarea {
 
 .section-4 .container h1 {
 	font-size: 6vmin;
-	padding-top: 14vmin;
+	padding: 8vmin;
+	background-color: rgb(223, 223, 223);
+	border-radius: 60px;
+}
+.section-4 .container p {
+	font-size: 5vmin;
 }
 
 .section-4 .team {
